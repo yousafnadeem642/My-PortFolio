@@ -27,7 +27,7 @@ export default function Footer() {
           <div className="flex gap-6">
 
             <a
-              href="#"
+              href="https://github.com/yousafnadeem642"
               className="text-slate-400
               hover:text-cyan-400 transition"
             >
@@ -35,7 +35,7 @@ export default function Footer() {
             </a>
 
             <a
-              href="#"
+              href="https://www.linkedin.com/in/yousaf-nadeem-7717093a3?utm_source=share_via&utm_content=profile&utm_medium=member_android"
               className="text-slate-400
               hover:text-cyan-400 transition"
             >
@@ -43,7 +43,7 @@ export default function Footer() {
             </a>
 
             <a
-              href="#"
+              href="https://www.instagram.com/yousafnadeem642?igsh=MXNkazRxejlqbDFkNA=="
               className="text-slate-400
               hover:text-cyan-400 transition"
             >
