@@ -1,4 +1,3 @@
-
 const skills = [
   {
     name: "HTML",
@@ -87,11 +86,9 @@ export default function Home() {
                 Available for opportunities
               </div>
 
-
               <p className="text-cyan-400 font-semibold text-lg">
                 Hello, I'm
               </p>
-
 
               <h1 className="text-5xl sm:text-6xl lg:text-7xl
                 font-bold leading-tight mt-3">
@@ -103,14 +100,12 @@ export default function Home() {
 
               </h1>
 
-
               <h2 className="text-2xl md:text-3xl
                 font-semibold text-slate-300 mt-5">
 
                 Front-End Web Developer
 
               </h2>
-
 
               <p className="text-slate-400 text-lg leading-8
                 mt-6 max-w-xl">
@@ -120,7 +115,6 @@ export default function Home() {
                 functionality.
 
               </p>
-
 
               {/* Buttons */}
               <div className="flex flex-wrap gap-4 mt-9">
@@ -139,7 +133,6 @@ export default function Home() {
                   </span>
                 </a>
 
-
                 <a
                   href="#contact"
                   className="px-7 py-3.5 rounded-xl
@@ -154,18 +147,17 @@ export default function Home() {
 
               </div>
 
-
               {/* Social */}
               <div className="flex items-center gap-6 mt-9">
 
                 <span className="text-slate-500 text-sm">
-                   <a
-                  href="https://www.instagram.com/yousafnadeem642?igsh=MXNkazRxejlqbDFkNA=="
-                  className="text-slate-400
-                  hover:text-cyan-400 transition"
-                >
-                 Find Me On
-                </a>
+                  <a
+                    href="https://www.instagram.com/yousafnadeem642?igsh=MXNkazRxejlqbDFkNA=="
+                    className="text-slate-400
+                    hover:text-cyan-400 transition"
+                  >
+                    Find Me On
+                  </a>
                 </span>
 
                 <a
@@ -188,7 +180,6 @@ export default function Home() {
 
             </div>
 
-
             {/* RIGHT */}
             <div className="flex justify-center lg:justify-end">
 
@@ -198,74 +189,44 @@ export default function Home() {
                 <div className="absolute -inset-10
                   bg-cyan-400/10 blur-3xl rounded-full" />
 
-
-                {/* Main Card */}
+                {/* PROFILE IMAGE */}
                 <div className="relative w-72 h-72 sm:w-80 sm:h-80
                   lg:w-96 lg:h-96 rounded-[2rem]
-                  border border-slate-700
-                  bg-gradient-to-br from-slate-900
-                  to-slate-950
-                  shadow-2xl
-                  flex items-center justify-center">
+                  overflow-hidden
+                  border border-cyan-400/30
+                  bg-slate-900
+                  shadow-2xl">
 
-                  {/* Code */}
-                  <div className="font-mono text-left">
+                  <img
+                    src="./profile.jpeg"
+                    alt="Yousaf Nadeem"
+                    className="w-full h-full object-cover"
+                  />
 
-                    <p className="text-slate-500">
-                      &lt;developer&gt;
-                    </p>
+                </div>
 
-                    <p className="text-cyan-400 ml-5 mt-3">
-                      const
-                      <span className="text-white"> developer </span>
-                      =
-                    </p>
+                {/* Floating React */}
+                <div className="absolute -top-6 -right-8
+                  px-4 py-2 rounded-xl
+                  bg-slate-800 border border-slate-700
+                  shadow-xl">
+                  ⚛️ React
+                </div>
 
-                    <p className="text-green-400 ml-10 mt-2">
-                      "Yousaf Nadeem"
-                    </p>
+                {/* Floating Next */}
+                <div className="absolute -bottom-6 -left-8
+                  px-4 py-2 rounded-xl
+                  bg-slate-800 border border-slate-700
+                  shadow-xl">
+                  ▲ Next.js
+                </div>
 
-                    <p className="text-cyan-400 ml-5 mt-2">
-                      role:
-                    </p>
-
-                    <p className="text-yellow-400 ml-10">
-                      "Front-End Developer"
-                    </p>
-
-                    <p className="text-slate-500 mt-3">
-                      &lt;/developer&gt;
-                    </p>
-
-                  </div>
-
-
-                  {/* Floating React */}
-                  <div className="absolute -top-6 -right-8
-                    px-4 py-2 rounded-xl
-                    bg-slate-800 border border-slate-700
-                    shadow-xl">
-                    ⚛️ React
-                  </div>
-
-
-                  {/* Floating Next */}
-                  <div className="absolute -bottom-6 -left-8
-                    px-4 py-2 rounded-xl
-                    bg-slate-800 border border-slate-700
-                    shadow-xl">
-                    ▲ Next.js
-                  </div>
-
-
-                  {/* Floating JS */}
-                  <div className="absolute top-1/2 -right-16
-                    px-4 py-2 rounded-xl
-                    bg-slate-800 border border-slate-700
-                    shadow-xl hidden sm:block">
-                    JS
-                  </div>
-
+                {/* Floating JS */}
+                <div className="absolute top-1/2 -right-16
+                  px-4 py-2 rounded-xl
+                  bg-slate-800 border border-slate-700
+                  shadow-xl hidden sm:block">
+                  JS
                 </div>
 
               </div>
@@ -273,7 +234,6 @@ export default function Home() {
             </div>
 
           </div>
-
 
           {/* Stats */}
           <div className="grid grid-cols-2 md:grid-cols-4
@@ -313,7 +273,6 @@ export default function Home() {
 
       </section>
 
-
       {/* ================= SKILLS ================= */}
       <section className="py-24 bg-slate-900/70">
 
@@ -334,7 +293,6 @@ export default function Home() {
             </p>
 
           </div>
-
 
           <div className="grid grid-cols-2 md:grid-cols-3
             lg:grid-cols-6 gap-5">
@@ -375,7 +333,6 @@ export default function Home() {
 
       </section>
 
-
       {/* ================= PROJECTS ================= */}
       <section id="projects" className="py-24">
 
@@ -403,7 +360,6 @@ export default function Home() {
 
           </div>
 
-
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
 
             {projects.map((project, index) => (
@@ -428,7 +384,6 @@ export default function Home() {
                   </span>
 
                 </div>
-
 
                 <div className="p-6">
 
@@ -463,7 +418,6 @@ export default function Home() {
         </div>
 
       </section>
-
 
       {/* ================= CTA ================= */}
       <section id="contact" className="py-24">
@@ -520,4 +474,3 @@ export default function Home() {
     </main>
   );
 }
-
